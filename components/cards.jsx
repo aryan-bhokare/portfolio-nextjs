@@ -7,7 +7,7 @@ import deved from "../public/aryanpfp1.png";
 const Cards = ({projectimg,projectname, projectinfo,githublink, source}) => {
   return (
     <div>
-    <div className='flex items-center justify-center min-h-screen px-2'>
+    <div className='flex items-center justify-center lg:min-h-screen md:min-h-screen px-2'>
         <div className='w-full max-w-md  mx-auto bg-white rounded-3xl shadow-xl overflow-hidden dark:bg-slate-400'>
             <div className='max-w-md mx-auto md:'>
             <Image src={source}></Image>
