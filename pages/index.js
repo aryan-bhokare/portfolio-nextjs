@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-navy-blue'>
-        <section className='min-h-screen'>
+        <section className='lg:min-h-screen md:min-h-screen'>
           
         <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-navy-blue">
           <div className="container flex flex-wrap items-center justify-between mx-auto">
@@ -71,7 +71,7 @@ export default function Home() {
 
 
         <section id="About" >
-          <div className='py-20'>
+          <div className='pt-20'>
             <h3 className="text-3xl py-1 mt-3 font-bold dark:text-white text-center ">About me</h3>
             <p className="text-lg py-2 pl-2 leading-8 text-gray-800 dark:text-gray-200">
             Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
