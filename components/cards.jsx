@@ -4,10 +4,10 @@ import deved from "../public/aryanpfp1.png";
 // let props = {
 //     name: "",
 // }
-const Cards = ({projectimg,projectname, projectinfo,githublink, source}) => {
+const Cards = ({projectimg,projectname, projectinfo,githublink, source, demolink}) => {
   return (
     <div>
-    <div className='flex items-center justify-center lg:min-h-screen md:min-h-screen px-2'>
+    <div className='flex items-center justify-center lg:min-h-screen md:min-h-full px-2'>
         <div className='w-full max-w-md  mx-auto bg-white rounded-3xl shadow-xl overflow-hidden dark:bg-slate-400'>
             <div className='max-w-md mx-auto md:'>
             <Image src={source}></Image>
@@ -16,9 +16,16 @@ const Cards = ({projectimg,projectname, projectinfo,githublink, source}) => {
                 <div className='flex flex-row'>
                 </div>
                 <p className='text-[#7C7C80] dark:text-gray-700 font-[15px] mt-6'>{projectinfo}</p>
-                <a target='_blank' href={githublink} className='block mt-10 w-full px-4 py-3 font-medium tracking-wide text-center capitalize transition-colors duration-300 transform bg-teal-400 dark:bg-teal-400 rounded-[14px] hover:bg-[#FFC933DD] focus:outline-none focus:ring focus:ring-teal-300 focus:ring-opacity-80'>
-                    Github
-                </a>
+                <div className="flex gap-1">
+                    <a target='_blank' href={githublink} className='block mt-10 w-full px-4 py-3 font-medium tracking-wide text-center capitalize transition-colors duration-300 transform bg-teal-400 dark:bg-teal-400 rounded-[14px] hover:bg-[#FFC933DD] focus:outline-none focus:ring focus:ring-teal-300 focus:ring-opacity-80'>
+                        Github
+                    </a>
+                    {
+                      demolink && <a target='_blank' href={demolink} className='block mt-10 w-full px-4 py-3 font-medium tracking-wide text-center capitalize transition-colors duration-300 transform bg-teal-400 dark:bg-teal-400 rounded-[14px] hover:bg-[#FFC933DD] focus:outline-none focus:ring focus:ring-teal-300 focus:ring-opacity-80'>
+                      Demo
+                  </a>
+                }
+                </div>
             </div>
             </div>
         </div>

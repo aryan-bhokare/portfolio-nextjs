@@ -6,6 +6,7 @@ import { useState } from "react";
 import deved from "../public/aryanpfp1.png";
 import projectss1 from "../public/ytcone.png"
 import projectss2 from "../public/text-utils.png"
+import yourresume from "../public/yourresume.png" 
 
 import Buttons from '../components/buttons';
 import Card from '../components/cards';
@@ -108,14 +109,26 @@ export default function Home() {
         <section id="Projects" className="py-10">
          <h1 className="text-3xl py-2 mb-10 mt-3 font-bold dark:text-white ">Projects</h1>
           <div  className='grid md:grid-cols-3 p-y-2 gap-6'>
+          <Card
+            projectname="Your Resume"
+            source={yourresume}
+            projectinfo="
+            A easy to use resume builder made with ReactJs and CSS.
+            Has drag and drop feature to add and remove sections.
+            Has a preview section to see the changes made.
+            Can download the resume in pdf format.
+            Tech stack used HTML,CSS, JavaScript, ReactJs.
+            "
+            githublink="https://github.com/aryan-bhokare/YourResume"
+            demolink="https://yourxresume.netlify.app/"
+            />
             <Card
             projectname="YoutubeClone"
             source={projectss1}
             projectinfo="
             YouTube (Video streaming) Clone web app made with the help of YouTube API from Rapid API. 
             Used React Hooks and React Router to make the site responsive.
-            Interactive and responsive design.
-            Tech stack used HTML,Tailwind CSS,Material UI, JavaScript, ReactJs, Rapid API.
+            Interactive and responsive design.Tech stack used HTML,Tailwind CSS, JavaScript, ReactJs.
             "
             githublink="https://github.com/aryan-bhokare/Youtube-Clone"
             />
