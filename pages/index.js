@@ -44,7 +44,7 @@ export default function Home() {
                   <a href="#Contact" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1FrJvldgV05p_9dT6USiEs1Po1kIVlOkA/view?usp=share_link" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resume</a>
+                  <a href="https://docs.google.com/document/d/1rGgN7KXGNEdV0XPEm17nfG0SNJjYV5VQBPWZlUg8wW8/edit?usp=sharing" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resume</a>
                 </li>
               </ul>
             </div>
