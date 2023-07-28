@@ -7,6 +7,8 @@ import deved from "../public/aryanpfp1.png";
 import projectss1 from "../public/ytcone.png"
 import projectss2 from "../public/text-utils.png"
 import yourresume from "../public/yourresume.png" 
+import recruit from "../public/recruit.png"
+import expense from "../public/expense.png"
 
 import Buttons from '../components/buttons';
 import Card from '../components/cards';
@@ -123,6 +125,27 @@ export default function Home() {
             demolink="https://yourxresume.netlify.app/"
             />
             <Card
+            projectname="Expense Tracker"
+            source={expense}
+            projectinfo="
+            Expense tracker is a web app that helps you to keep track of your expenses. User can store their monthly budget and add their expenses and income this App will keep track than you don't go out of budget.
+            Tech stack used HTML,Tailwind CSS, JavaScript, ReactJs.
+            "
+            githublink="https://github.com/aryan-bhokare/Expense-Tracker"
+            demolink="https://expensex.netlify.app/"
+            />
+            <Card
+            projectname="Recruit App"
+            source={recruit}
+            projectinfo="
+            This a prototype of Recruiting solution for companies to hire candidates.Recruiter can search candidates based on their skills and experience and choose the candidates which are most qualified.
+            Recruit App has an attractive interface.
+            Tech stack used HTML,CSS, JavaScript .
+            "
+            githublink="https://github.com/aryan-bhokare/Recruit-App"
+            demolink="https://recruit1app.netlify.app/"
+            />
+            <Card
             projectname="YoutubeClone"
             source={projectss1}
             projectinfo="
@@ -140,15 +163,7 @@ export default function Home() {
             Tech stack used HTML,Tailwind CSS, JavaScript, React."
             githublink="https://github.com/aryan-bhokare/textutils"
             />
-            {/* <Card
-            projectname="Expense Tracker"
-            source={}
-            projectinfo="
-            YouTube (Video streaming) Clone web app made with the help of YouTube API from Rapid API. 
-            Tech stack used HTML,Tailwind CSS, JavaScript, ReactJs, Rapid API.
-            Interactive and responsive design."
-            githublink="https://github.com/aryan-bhokare/Youtube-Clone"
-            /> */}
+            
           </div>
         </section>  
         <section id='Contact'>
